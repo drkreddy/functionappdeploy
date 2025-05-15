@@ -3,11 +3,11 @@ import logging
 
 
 from top import one
-from top import two
+#from top import two
 app = func.FunctionApp(http_auth_level=func.AuthLevel.ANONYMOUS)
 
 app.register_functions(one.blueprint)
-app.register_functions(two.blueprint)
+#app.register_functions(two.blueprint)
 
 
 
